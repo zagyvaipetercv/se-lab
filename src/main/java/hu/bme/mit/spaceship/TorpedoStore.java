@@ -61,3 +61,5 @@ public class TorpedoStore {
     return this.torpedoCount;
   }
 }
+
+// Ez a sor csak a codereview feladat miatt került ide
