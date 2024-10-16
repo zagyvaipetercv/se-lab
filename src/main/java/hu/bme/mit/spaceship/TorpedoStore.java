@@ -43,7 +43,7 @@ public class TorpedoStore {
 
     if (r >= FAILURE_RATE) {
       // successful firing
-      this.torpedoCount -= numberOfTorpedos;
+      this.torpedoCount -= numberOfTorpedos; // decresing the amount of fired torpedos from the stored torpedos
       success = true;
     } else {
       // simulated failure
@@ -61,5 +61,3 @@ public class TorpedoStore {
     return this.torpedoCount;
   }
 }
-
-// Ez a sor csak a codereview feladat miatt került ide
